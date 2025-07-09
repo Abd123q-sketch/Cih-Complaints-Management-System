@@ -5,7 +5,6 @@ import ma.bankatiii.cih.models.chatbot;
 
 public interface chatbotRepo extends JpaRepository<chatbot, Long> {
 
-    public chatbot findByUsername(String username);
 
 
 }
